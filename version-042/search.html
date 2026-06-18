@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-经典国产电影-经典影片合集-高清电影免费在线观看</title>
+    <meta name="description" content="经典国产电影影片搜索页面，可按标题、地区、类型、年份与关键词筛选影片。">
+    <meta name="keywords" content="经典国产电影,国产电影,经典影片,电影合集,高清电影,口碑电影,精选影片,影片搜索,筛选">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc,mobile">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+    <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="经典国产电影">
+            <span class="logo-mark">▶</span>
+            <span class="logo-text">经典国产电影</span>
+        </a>
+        <nav class="desktop-nav">
+            <a class="nav-link" href="index.html">首页</a>
+            <a class="nav-link" href="categories.html">分类</a>
+            <a class="nav-link" href="rankings.html">排行榜</a>
+            <a class="nav-link" href="all-movies.html">全部影片</a>
+            <a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+        <button class="menu-toggle" type="button" id="menuToggle" aria-label="打开导航">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+        <a class="mobile-link" href="index.html">首页</a>
+        <a class="mobile-link" href="categories.html">分类</a>
+        <a class="mobile-link" href="rankings.html">排行榜</a>
+        <a class="mobile-link" href="all-movies.html">全部影片</a>
+        <a class="mobile-link active" href="search.html">搜索</a>
+    </nav>
+</header>
+<main>
+<section class="page-hero compact-hero">
+    <div>
+        <p class="hero-kicker">搜索筛选</p>
+        <h1>影片搜索</h1>
+        <p>输入影片名、地区、类型、年份或关键词，快速定位想看的内容。</p>
+    </div>
+</section>
+<section class="content-section search-panel">
+    <div class="search-box">
+        <input id="movieSearchInput" type="search" placeholder="搜索影片、类型、地区、年份" autocomplete="off">
+        <select id="movieCategoryFilter" aria-label="选择分类">
+            <option value="">全部分类</option>
+            <option value="drama">剧情经典</option><option value="romance">爱情治愈</option><option value="suspense">悬疑惊悚</option><option value="action">动作冒险</option><option value="comedy">喜剧合家欢</option><option value="animation">动画动漫</option><option value="series">剧集连播</option><option value="variety">综艺纪实</option><option value="domestic">国产精选</option><option value="world">海外佳片</option>
+        </select>
+    </div>
+    <div class="search-hints">
+        <button type="button" data-search-word="国产">国产</button>
+        <button type="button" data-search-word="爱情">爱情</button>
+        <button type="button" data-search-word="悬疑">悬疑</button>
+        <button type="button" data-search-word="动画">动画</button>
+        <button type="button" data-search-word="2025">2025</button>
+    </div>
+    <div id="searchResults" class="movie-grid movie-grid-poster search-results"></div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <span class="logo-mark">▶</span>
+                <span class="logo-text">经典国产电影</span>
+            </div>
+            <p>经典国产电影栏目收录国内经典影片内容，覆盖多年代和多题材作品。</p>
+        </div>
+        <div class="footer-column">
+            <h3>快捷入口</h3>
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类总览</a>
+            <a href="rankings.html">热门排行</a>
+            <a href="all-movies.html">全部影片</a>
+        </div>
+        <div class="footer-column">
+            <h3>影片分类</h3>
+                <a href="category-drama.html">剧情经典</a>
+                <a href="category-romance.html">爱情治愈</a>
+                <a href="category-suspense.html">悬疑惊悚</a>
+                <a href="category-action.html">动作冒险</a>
+                <a href="category-comedy.html">喜剧合家欢</a>
+                <a href="category-animation.html">动画动漫</a>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 经典国产电影 · 高清电影免费在线观看</div>
+</footer>
+<script src="assets/app.js"></script>
+<script src="assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
